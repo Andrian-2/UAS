@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daftar Mata Kuliah</title>
+</head>
+<body>
+  <h1>Daftar Mata Kuliah</h1>
+  <ul>
+    <% mataKuliah.forEach(matkul => { %>
+      <li><%= matkul.nama_mk %> - <%= matkul.semester_mk %> - <%= matkul.sks_mk %> - <%= matkul.keterangan_mk %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
